@@ -5,7 +5,6 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-%matplotlib inline
 
 def region_Growing(img, seed, region_threshold  = 70, connectivity = 4):
     #Parameters for region growing
